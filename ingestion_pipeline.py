@@ -1,5 +1,4 @@
 import os
-
 from langchain_community.document_loaders import TextLoader, DirectoryLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
@@ -200,9 +199,8 @@ def main():
         batch_size=10,
     )
 
-    print("\n========================================")
+
     print("INGESTION PIPELINE COMPLETED SUCCESSFULLY")
-    print("========================================")
 
     return vectorstore
 
