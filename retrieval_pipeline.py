@@ -17,7 +17,7 @@ db = Chroma(
 )
 
 # Search for relevant documents
-query = "Who succeeded Ze'ev Drori as CEO in October 2008?"
+query = "What was the name of the autonomous spaceport drone ship that achieved the first successful sea landing?"
 
 # retriever = db.as_retriever(search_kwargs={"k": 5})
 
