@@ -49,7 +49,6 @@ Please provide a clear, helpful answer using only the information from these doc
 
 model = ChatOllama(
     model="llama3.2:1b",
-    temperature=0
 )
 
 # Define the messages for the model

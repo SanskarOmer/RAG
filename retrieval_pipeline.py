@@ -17,7 +17,7 @@ db = Chroma(
 )
 
 # Search for relevant documents
-query = "What was the name of the autonomous spaceport drone ship that achieved the first successful sea landing?"
+query = "What was Microsoft's first hardware product release?"
 
 # retriever = db.as_retriever(search_kwargs={"k": 5})
 
